@@ -1,0 +1,13 @@
+.root {
+
+}
+
+.history_item {
+    text-align: right;
+    color: dodgerblue;
+}
+
+.history_item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

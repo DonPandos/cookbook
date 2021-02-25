@@ -1,0 +1,25 @@
+.root {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0px 0px 10px 10px;
+    width: 100%;
+}
+
+.recipe_name {
+    text-align: center;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.recipe_name:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.recipe_description {
+    max-height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
